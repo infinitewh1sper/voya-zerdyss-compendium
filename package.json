@@ -1,0 +1,47 @@
+{
+  "name": "voya-zerdyss-compendium-full",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.20.2",
+    "@hookform/resolvers": "^5.0.1",
+    "@liveblocks/client": "^2.24.3",
+    "@liveblocks/react": "^2.24.3",
+    "@prisma/client": "^6.8.2",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "bootstrap": "^5.3.6",
+    "cloudinary": "^2.6.1",
+    "fuse.js": "^7.1.0",
+    "husky": "^9.1.7",
+    "leaflet": "^1.9.4",
+    "next": "15.3.3",
+    "next-feature-flags": "^0.6.5",
+    "prettier": "^3.5.3",
+    "prisma": "^6.8.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.56.4",
+    "react-leaflet": "^5.0.0",
+    "reactstrap": "^9.2.3",
+    "vitest": "^3.1.4",
+    "zod": "^3.25.39"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
